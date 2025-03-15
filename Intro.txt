@@ -1,0 +1,6 @@
+This is a test file
+This GIT includes the following
+A. Test Plan example for different test categories
+B. Test Cases example for different test categories
+C. Automation scripts
+D. Postman config examples
