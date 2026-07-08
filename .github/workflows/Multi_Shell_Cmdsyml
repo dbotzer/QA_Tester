@@ -1,0 +1,10 @@
+name: Hello World # here we create only 1 job
+on: workflow_dispatch
+jobs: 
+  Multi Shell Commands: #job name
+    runs-on: ubuntu-latest
+    steps:
+		   - name: Hello Step
+		     run: |
+		         echo “This is line one”
+		         echo “This is line two”
