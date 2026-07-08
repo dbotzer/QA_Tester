@@ -13,7 +13,7 @@ jobs:
       # Step 1: Test new build
       - name: Testing new app step
         run: echo "Running test cases"
- deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       # Step 1: Deploy the new build
