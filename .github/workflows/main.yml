@@ -1,7 +1,8 @@
 name: Hello World # here we create only 1 job
 on: workflow_dispatch
 jobs: 
-  hello: #job name
+  hello_job_1: #job name
     runs-on: ubuntu-latest
     steps:
-      - run: echo “Welcome to GHA”
+      - name: Print welcome message
+        run: echo “Welcome to GHA”
