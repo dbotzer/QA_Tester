@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Step
-      - run: echo "Building the application"
+        run: echo "Building the application"
