@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Prod Deploy
-        run: echo "Deploying the code to the production environment"
+        run: echo "Deploying the code to the production environment2"
   success_notify:
     needs: ['quality_checks','dev_deploy','prod_deploy']
     if: success()
